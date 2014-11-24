@@ -69,9 +69,9 @@ class KO:
         print "Standard deviation for control samples:", self.control_std
         print
         if self.T2D_mean > self.control_mean:
-            print "More prevalent in T2D samples than control by %.2f%%" % self.percent_diff
+            print "More prevalent in T2D samples than control by %.2f %%" % self.percent_diff
         else:
-            print "More prevalent in control samples than T2D by %.2f%%" % self.percent_diff
+            print "More prevalent in control samples than T2D by %.2f %%" % self.percent_diff
         print "Present in %.2f %% of T2D samples" % self.T2D_presence
         print "Present in %.2f %% of control samples" % self.control_presence 
         print
